@@ -1,0 +1,1450 @@
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url(assets/Font/FontsFree-Net-proxima_nova_reg-webfont.ttf);
+}
+
+@font-face {
+    font-family: "ProximaNova-Semibold";
+    src: url(assets/Font/FontsFree-Net-Proxima-Nova-Sbold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.formContainer {
+    width: 87%;
+    margin: 0 auto;
+    height: 950px;
+}
+
+
+
+/*//////////////////////////////////////////////NAVBAR SECTION///////////////////////////////////////////////*/
+.riversideContainer {
+    max-width: 1500px;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 13px;
+    box-shadow: 0 0 18px 0 rgba(9, 2, 45, 0.09);
+}
+
+.riversideNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.riversideLogo img {
+    width: 23%;
+}
+
+.riversideLogo {
+    width: 49%;
+}
+
+.homeLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ababab;
+
+}
+
+.riversideContent {
+    width: 15%;
+    font-size: 13px;
+}
+
+.homeLogin .border {
+    height: 20px;
+    border-left: 1px solid #ababab;
+
+}
+
+.hello {
+    font-family: "ProximaNova-Regular";
+    color: #ababab;
+
+}
+
+.home {
+    font-family: "ProximaNova-Regular";
+
+}
+
+.login {
+    font-family: "ProximaNova-Regular";
+}
+
+
+
+
+
+/*//////////////////////////////////////////////MAIN SECTION///////////////////////////////////////////////*/
+
+.circleLineSection {
+    background-color: #e7f4fd;
+    height: 96px;
+    padding-top: 36px;
+    position: relative;
+}
+
+.riversideSection-1 {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 18px 0 rgba(9, 2, 45, 0.09);
+    border: solid 1px #e6e6e6;
+    text-align: center;
+    margin-top: 50px;
+    height: 900px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #b2b2b2;
+    border-radius: 50px;
+
+}
+
+.section-1 {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.circle1-h3 {
+    text-align: center;
+    font-family: "ProximaNova-Regular";
+    color: #b2b2b2;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+
+
+}
+
+.section-1 .active h3 {
+    color: #81c442;
+    text-align: center;
+}
+
+.section-1 .active .circle {
+    z-index: 99;
+    background: #81c442;
+    border: 5px solid white;
+    outline: 1px solid#81c442;
+    position: relative;
+    top: 4px;
+
+
+
+
+}
+
+.section-1 .activated .circle {
+    outline: none;
+    background: #81c442;
+    border: none;
+
+}
+
+.section-1 .activated h3 {
+    color: #81c442;
+    text-align: center;
+}
+
+.section-2 .active {
+    border-bottom: 1px solid #81c442;
+
+}
+
+.line-1 {
+    border-bottom: 1px solid #b2b2b2;
+    width: 189px;
+}
+
+.line-2 {
+    border-bottom: 1px solid #b2b2b2;
+    width: 208px;
+}
+
+.line-3 {
+    border-bottom: 1px solid #b2b2b2;
+    width: 226px;
+}
+
+.section-2 {
+    display: flex;
+    margin: 0 auto;
+    width: 67%;
+    position: absolute;
+    left: 17%;
+    bottom: 38%;
+
+}
+
+.arrow{
+    width: 10%;
+}
+
+/* .circle1 {
+    height: 10px;
+} */
+
+.circle1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+.circle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+.circle3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+.circle4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+
+
+
+
+/*/////////////////////////////////////////////form section///////////////////////////////////////////////////////////*/
+.formpage1 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.formLeftSide {
+    width: 50%;
+
+}
+
+
+
+.subjectpart {
+    width: 100%;
+    padding-top: 45px;
+}
+
+
+.subject {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    text-align: left;
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+
+.subjectChoice {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.reading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reading label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+}
+
+.math label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+
+}
+
+.math {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradeslabel {
+    margin-top: 52px;
+    display: flex;
+    /* margin: 0 auto; */
+    width: 100%;
+    position: relative;
+}
+
+
+.gradeslabel label {
+    text-align: left;
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    background-color: #f6f6f6;
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+}
+
+.gradeslabel select {
+    appearance: none;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+    font-family: "ProximaNova-Regular";
+    border-radius: 3px;
+    border: 1px solid #c9c9c9;
+    color: #333333;
+    width: 25%;
+    padding: 10px;
+}
+.one{
+    
+    right: 10%;
+    z-index: 99;
+    top: 45%;
+    pointer-events: none;
+    position: absolute;
+    /* height: 1px; */
+    /* width: 0px; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #0383c9;
+
+}
+
+.thetaDis {
+    width: 32%;
+}
+
+.thetaradio {
+    width: 64%;
+    padding-top: 12px;
+}
+
+.thetaradio label {
+    padding-left: 14px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+}
+
+.thetaDistribution {
+    padding-top: 30px;
+}
+
+.thetaHeading {
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    font-size: 16px
+}
+
+
+.meanSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mean {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.mean label {
+    padding: 12px;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 45%;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.mean input {
+    width: 15%;
+    border: 1px solid #c9c9c9;
+
+    padding: 9px;
+    /* border-radius: 3px; */
+
+}
+
+.sd {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.sd label {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 45%;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.sd input {
+    width: 15%;
+    padding: 9px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+
+
+}
+
+
+.minMaxSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.min {
+    display: flex;
+    text-align: left;
+    padding-top: 13px;
+}
+
+.min label {
+    padding: 12px;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 45%;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.min input {
+    width: 15%;
+    border: 1px solid #c9c9c9;
+
+    padding: 9px;
+}
+
+.max {
+    display: flex;
+    text-align: left;
+    padding-top: 13px;
+}
+
+.max label {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 45%;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.max input {
+    width: 15%;
+    padding: 9px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+
+
+}
+
+.thetaRangesHeading {
+    font-family: "ProximaNova-Semibold";
+    font-size: 16px;
+    color: #333333;
+}
+
+.thetaRanges {
+    padding-top: 30px;
+}
+
+.thetarangesSection {
+    width: 24%;
+}
+
+.replicationHeading {
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    font-size: 16px
+}
+
+.replication {
+    padding-top: 25px;
+
+}
+
+.replicationSection {
+    width: 55%;
+}
+
+
+.noOfReplicationSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Num {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.Num label {
+    text-align: left;
+    background-color: #f6f6f6;
+    font-family: "ProximaNova-Semibold";
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    color: #333333;
+
+}
+
+.Num input {
+
+    width: 25%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+
+
+
+}
+
+
+.IRT-Modelpart {
+    width: 100%;
+    padding-top: 45px;
+}
+
+
+.model {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    text-align: left;
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+
+.modelChoice {
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+}
+
+.Rasch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rasch label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+
+
+}
+
+.PL2 label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+
+}
+
+.PL2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.PL3 label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+
+}
+
+.PL3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/*////////////////////////////////////////////////FORM RIGTH SIDE //////////////////////////////////////////////*/
+
+.rightSideContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formRightSide {
+    width: 50%;
+}
+
+.itemPoolHeading {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    text-align: left;
+    color: #333333;
+    padding-bottom: 10px;
+
+}
+
+.poolItems select {
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    appearance: none;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+    padding: 10px;
+}
+.two{
+    
+    right: 4%;
+    z-index: 99;
+    top: 14%;
+    pointer-events: none;
+    position: absolute;
+    /* height: 1px; */
+    /* width: 0px; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #0383c9;
+
+}
+
+.itemPoolSection {
+    margin-top: 45px;
+}
+
+
+.NumberOfExaminees {
+    padding-top: 30px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.NumberOfExaminees label {
+    color: #333333;
+    text-align: left;
+    font-family: "ProximaNova-Semibold";
+    background-color: #f6f6f6;
+    width: 67%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.NumberOfExaminees input {
+    font-family: "ProximaNova-Regular";
+    /* border-radius: 3px; */
+    color: #333333;
+
+    border: 1px solid #c9c9c9;
+    width: 26%;
+    padding: 10px;
+}
+
+.Uniform {
+    padding-top: 54px;
+}
+
+
+
+
+
+.UniformRadio {
+    width: 24%;
+    padding-top: 7px;
+}
+
+.UniformRadio label {
+    padding-left: 14px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+
+}
+
+.uniformSection {
+    display: flex;
+    width: 109%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uniformMin {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.uniformMin label {
+    padding: 12px;
+    color: #333333;
+    background-color: #f6f6f6;
+    font-family: "ProximaNova-Semibold";
+    width: 45%;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.uniformMin input {
+    width: 15%;
+    border: 1px solid #c9c9c9;
+
+    padding: 9px;
+}
+
+.uniformMax {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.uniformMax label {
+    padding: 12px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f6f6f6;
+    font-family: "ProximaNova-Semibold";
+    width: 45%;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.uniformMax input {
+    width: 15%;
+    padding: 9px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+
+
+}
+
+.scallingIncrementSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.incrementHeading {
+    font-family: "ProximaNova-Semibold";
+    font-size: 16px;
+    color: #333333;
+}
+
+.Numbers input {
+    width: 122%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #c9c9c9;
+
+}
+
+.increment {
+    padding-top: 30px;
+}
+
+.incrementSection {
+    width: 32%;
+}
+
+.inputIncrementSection {
+    padding-top: 12px;
+}
+
+.scallingSection {
+    width: 47%;
+}
+
+.scallingpart {
+    width: 100%;
+    padding-top: 18px;
+}
+
+.scalling {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.scallingChoice {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 12px;
+}
+
+.scalling1-0 {
+    display: flex;
+    justify-content: space-between;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+}
+
+.scalling1-0 label {
+    padding-left: 8px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+}
+
+
+.scalling1-7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scalling1-7 label {
+    padding-left: 8px;
+    font-family: "ProximaNova-Regular";
+    color: #333333;
+}
+
+.CharacteristicsSection {
+    width: 49%;
+    /* border-radius: 3px; */
+
+}
+
+.characteristicsHeading {
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    font-size: 16px
+}
+
+.characteristics {
+    padding-top: 30px;
+}
+
+
+
+.noOfcharacteristicsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digits {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.digits label {
+    text-align: left;
+    color: #333333;
+    background-color: #f6f6f6;
+    font-family: "ProximaNova-Semibold";
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.digits input {
+
+    width: 25%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+}
+
+
+/*/////////////////////////////////////////////BUTTONS//////////////////////////////////////////////////////////*/
+
+.Buttons {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 29%;
+    margin: 0 auto;
+}
+
+.Buttons .back {
+    padding: 10px 40px;
+    background-color: #81c442;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+
+.Buttons .next {
+    padding: 10px 40px;
+    background-color: #0383c9;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+ opacity: 0;
+  background: #0383c9; 
+}
+
+label[type="grades"]{
+    opacity: 0.2;
+}
+
+
+
+/*/////////////////////////////////////////FORM//////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////PAGE/////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////2////////////////////////////////////////////////////////*/
+
+.formpage2 {
+    display: none;
+    width: 100%;
+    margin: 0;
+
+}
+
+.formPage2LeftSide {
+    width: 50%;
+}
+
+
+
+.passageBasedPart {
+    width: 100%;
+    padding-top: 45px;
+}
+
+
+.passageBased {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+.passageBasedChoice {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    font-size: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+
+}
+
+.passage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passage label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+
+}
+
+.domainSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NumOfDomain {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.NumOfDomain label {
+    text-align: left;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.NumOfDomain input {
+
+    width: 25%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+}
+
+
+.passageTypeHeading {
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    font-size: 14px
+}
+
+.passageType {
+    padding-top: 34px;
+}
+
+.passageTypeSection {
+    width: 81%;
+}
+
+
+.noOfInformationSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    padding-top: 9px;
+    width: 100%;
+}
+
+.info label {
+    text-align: left;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 54%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.info input {
+
+    width: 22%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+
+}
+
+.priorAbilityPart {
+    width: 100%;
+    padding-top: 45px;
+}
+
+
+.priorAbility {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    color: #333333;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+.priorAbilityChoice {
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.Yes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Yes label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+
+}
+
+.No {
+    display: flex;
+    justify-content: space-between;
+}
+
+.No label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+
+}
+
+
+.inputThetaSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputTheta {
+    display: flex;
+    text-align: left;
+    padding-top: 31px;
+    width: 100%;
+}
+
+.inputTheta label {
+    text-align: left;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+    width: 52%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.inputTheta input {
+
+    width: 22%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+}
+
+
+
+.routingItemsHeading {
+    font-family: "ProximaNova-Semibold";
+    font-size: 14px;
+    color: #333333;
+}
+
+.routingItems {
+    padding-top: 34px;
+    width: 32%;
+}
+
+.routingItemsSection {
+    width: 81%;
+}
+
+
+.noOfItemsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noOfItems {
+    display: flex;
+    text-align: left;
+    padding-top: 9px;
+    width: 100%;
+}
+
+.noOfItems label {
+    text-align: left;
+    font-family: "ProximaNova-Semibold";
+    background-color: #f6f6f6;
+    color: #333333;
+    width: 52%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.noOfItems input {
+
+    width: 22%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+
+}
+
+
+.interimThetaPart {
+    width: 100%;
+    padding-top: 45px;
+}
+
+
+.interimTheta {
+    font-weight: 600;
+    font-family: "ProximaNova-Semibold";
+    text-align: left;
+    color: #333333;
+    padding-bottom: 10px;
+    width: 90%;
+    font-size: 13px;
+
+}
+
+
+.interimThetaChoice {
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.MLE {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MLE label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+
+}
+
+.EAP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EAP label {
+    padding-left: 17px;
+    font-family: "ProximaNova-Regular";
+
+}
+
+
+/*//////////////////////////////////////////////////formPage2RightSide//////////////////////////////////////////////////////////*/
+
+.formPage2RightSide {
+    width: 50%;
+}
+
+.rightSideContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.selectDomain {
+    margin-top: 118px;
+    display: flex;
+    /* margin: 0 auto; */
+    width: 100%;
+    position: relative;
+}
+
+
+
+.selectDomain label {
+    text-align: left;
+    background-color: #f6f6f6;
+    width: 67%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.selectDomain select {
+    appearance: none;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+    /* font-family: "ProximaNova-Regular"; */
+    color: #333333;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+    
+    width: 93%;
+    padding: 13px;
+}
+
+.three{
+   
+    right: 10%;
+    z-index: 99;
+    top: 44%;
+    pointer-events: none;
+    position: absolute;
+    /* height: 1px; */
+    /* width: 0px; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #0383c9;
+
+}
+
+.literarySection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.literary {
+    display: flex;
+    text-align: left;
+    padding-top: 54px;
+
+    width: 100%;
+}
+
+.literary label {
+    text-align: left;
+    color: #333333;
+    background-color: #f6f6f6;
+    font-family: "ProximaNova-Semibold";
+    width: 58%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.literary input {
+
+    width: 22%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+}
+
+.sourceFileSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sourceFile {
+    display: flex;
+    text-align: left;
+    padding-top: 128px;
+    width: 100%;
+}
+
+.sourceFile label {
+    text-align: left;
+    color: #333333;
+    background-color: #f6f6f6;
+    font-family: "ProximaNova-Semibold";
+
+    width: 58%;
+    padding: 13px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.sourceFile input {
+
+    width: 22%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+}
+
+
+
+.passagesNoSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.passagesNo {
+    display: flex;
+    text-align: left;
+    padding-top: 56px;
+    width: 100%;
+}
+
+.passagesNo label {
+    text-align: left;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-family: "ProximaNova-Semibold";
+
+    width: 58%;
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+
+}
+
+.passagesNo input {
+
+    width: 22%;
+    padding: 10px;
+    /* border-radius: 3px; */
+    border: 1px solid #c9c9c9;
+}

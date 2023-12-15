@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverside Insights</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="riversideContainer">
+        <div class="riversideNav">
+            <div class="riversideLogo">
+                <img src="assets/image/Riverside_Insights_Horiz_RGB.png" alt="">
+            </div>
+            <div class="riversideContent">
+                <div class="homeLogin">
+                    <div class="hello"> Hello! Simu1</div>
+                    <div class="border"></div>
+                    <div class="home">Home</div>
+                    <div class="border"></div>
+                    <div class="logout">Logout</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="riversideSection-1">
+        <div class="circleLineSection">
+            <div class="section-1">
+                <div class="circle1 active">
+                    <h3 class="circle1-h3">Pool</h3>
+                    <div><span></span></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="circle2">
+                    <h3 class="circle1-h3">Items</h3>
+                    <div class="circle"></div>
+                </div>
+                <div class="circle3">
+                    <h3 class="circle1-h3">Score</h3>
+                    <div class="circle"></div>
+                </div>
+                <div class="circle3">
+                    <h3 class="circle1-h3">Result</h3>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="section-2 ">
+                <div class="line-1 "></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+        </div>
+
+        <div class="foam">
+            <div class="formContainer">
+                <div class="formpage1">
+                    <div class="formLeftSide">
+                        <div class="subjectpart">
+                            <h4 class="subject">Subject</h4>
+                            <div class="subjectChoice">
+                                <div class="reading">
+                                    <input type="radio" name="Subject" id="Same1" >
+                                    <label for="Same1">Reading</label>
+                                </div>
+                                <div class="math">
+                                    <input type="radio" name="Subject" id="Same">
+                                    <label for="Same">Math</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gradeslabel">
+                            <label class="label1" for="grades"  >Grade</label>
+                            <!-- <img class="arrow" src="assets/image/down-arrow-svgrepo-com.png" style="width: 15px; height: 15px;" alt=""> -->
+
+                            <select  name="G5" id="cars" >
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="B-">B-</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="C-">C-</option>
+                            </select>
+                            <div class="one"><span></span></div>
+
+                        </div>
+                        <div class="thetaDis">
+                            <div class="thetaDistribution">
+                                <h4 class="thetaHeading">Theta Distribution</h4>
+                                <div class="thetaradio">
+                                    <input type="radio" name="thetaDistribution" id="Theta">
+                                    <label for="Theta">Normal</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="meanSection">
+                            <div class="mean">
+                                <label for="number">Mean</label>
+                                <input type="number" name="number" id="number">
+                            </div>
+                            <div class="sd">
+                                <label for="number1">SD</label>
+                                <input type="number" name="number" id="number1">
+
+                            </div>
+
+                        </div>
+                        <div class="thetarangesSection">
+                            <div class="thetaRanges">
+                                <h4 class="thetaRangesHeading">Theta Ranges</h4>
+
+                            </div>
+                        </div>
+                        <div class="minMaxSection">
+                            <div class="min">
+                                <label for="number" >Min</label>
+                                <input type="number" name="number" id="number" >
+                            </div>
+                            <div class="max">
+                                <label for="number1">Max</label>
+                                <input type="number" name="number" id="number1">
+
+                            </div>
+
+                        </div>
+                        <div class="replicationSection">
+                            <div class="replication">
+                                <h4 class="replicationHeading">Generate Replication Data Sets</h4>
+
+                            </div>
+                        </div>
+                        <div class="noOfReplicationSection">
+                            <div class="Num">
+                                <label for="number">Number Of Replications</label>
+                                <input type="number" name="number" id="number">
+                            </div>
+                        </div>
+                        <div class="IRT-Modelpart">
+                            <h4 class="model">IRT Model</h4>
+                            <div class="modelChoice">
+                                <div class="Rasch">
+                                    <input type="radio" name="model" id="rasch">
+                                    <label for="rasch">Rasch/1 PL</label>
+                                </div>
+                                <div class="PL2">
+                                    <input type="radio" name="model" id="pl2">
+                                    <label for="pl2">2PL</label>
+                                </div>
+                                <div class="PL3">
+                                    <input type="radio" name="model" id="pl3">
+                                    <label for="pl3">3PL</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formRightSide">
+                        <div class="rightSideContainer">
+                            <div class="itemPoolSection">
+                                <h4 class="itemPoolHeading">Items Pool</h4>
+                                <div class="poolItems">
+                                    <select name="Items Pool" id="items">
+                                        <option value="itempool_math_01_2019">itempool_math_01_2019</option>
+                                        <option value="itempool_math_02_2019">itempool_math_02_2019</option>
+                                        <option value="itempool_math_03_2019">itempool_math_03_2019</option>
+                                        <option value="itempool_math_04_2019">itempool_math_04_2019</option>
+                                        <option value="itempool_math_05_2019">itempool_math_05_2019</option>
+
+                                    </select>
+                            <div class="two"></div>
+
+
+                                </div>
+                            </div>
+                            <div class="NumberOfExaminees">
+                                <label for="examinees">Number of examinees</label>
+                               <input type="number" name="examinees" id="examinees">
+                            </div>
+                            <div class="uniformDis">
+                                <div class="Uniform">
+                                    <div class="UniformRadio">
+                                        <input type="radio" name="thetaDistribution" id="Uniform">
+                                        <label for="Uniform">Uniform</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="uniformSection">
+                                <div class="uniformMin">
+                                    <label for="number">Min</label>
+                                    <input type="number" name="number" id="number">
+                                </div>
+                                <div class="uniformMax">
+                                    <label for="number1">Max</label>
+                                    <input type="number" name="number" id="number1">
+
+                                </div>
+
+                            </div>
+                            <div class="scallingIncrementSection">
+                                <div class="incrementSection">
+                                    <div class="increment">
+                                        <h4 class="incrementHeading">Theta Increment</h4>
+                                    </div>
+                                    <div class="inputIncrementSection">
+                                        <div class="Numbers">
+                                            <input type="number" name="number" id="number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="scallingSection">
+                                    <div class="scallingpart">
+                                        <h4 class="scalling">Scalling</h4>
+                                        <div class="scallingChoice">
+                                            <div class="scalling1-0">
+                                                <input type="radio" name="scalling" id="Scalling1">
+                                                <label for="Scalling1">1.0</label>
+                                            </div>
+                                            <div class="scalling1-7">
+                                                <input type="radio" name="scalling" id="scalling2">
+                                                <label for="scalling2">1.7</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="CharacteristicsSection">
+                                <div class="characteristics">
+                                    <h4 class="characteristicsHeading">Item/Pool Characteristics</h4>
+
+                                </div>
+                            </div>
+                            <div class="noOfCharacteristicsSection">
+                                <div class="digits">
+                                    <label for="number">Number Of Items In Pool</label>
+                                    <input type="number" name="number" id="number">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="formpage2">
+                    <div class="formPage2LeftSide">
+                        <div class="passageBasedPart">
+                            <h4 class="passageBased">Item or Passage Based</h4>
+                            <div class="passageBasedChoice">
+                                <div class="item">
+                                    <input type="radio" name="passageBased" id="passageBased1">
+                                    <label for="passageBased1">Items</label>
+                                </div>
+                                <div class="passage">
+                                    <input type="radio" name="passageBased" id="passageBased2">
+                                    <label for="passageBased2">Passage</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="domainSection">
+                            <div class="NumOfDomain">
+                                <label for="domain">Number Of Domains</label>
+                                <input type="number" name="domain" id="domain">
+                            </div>
+                        </div>
+                        <div class="passageTypeSection">
+                            <div class="passageType">
+                                <h4 class="passageTypeHeading">Number of Passages Per Passage Type (For Reading)</h4>
+
+                            </div>
+                        </div>
+                        <div class="noOfInformationSection">
+                            <div class="info">
+                                <label for="info">Information</label>
+                                <input type="number" name="info" id="info">
+                            </div>
+                        </div>
+                        <div class="priorAbilityPart">
+                            <h4 class="priorAbility">Prior Ability Estimate</h4>
+                            <div class="priorAbilityChoice">
+                                <div class="Yes">
+                                    <input type="radio" name="priorAbility" id="Yes">
+                                    <label for="Yes">Yes</label>
+                                </div>
+                                <div class="No">
+                                    <input type="radio" name="priorAbility" id="no">
+                                    <label for="no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputThetaSection">
+                            <div class="inputTheta">
+                                <label for="input">Input Theta</label>
+                                <input type="number" name="input" id="input">
+                            </div>
+                        </div>
+                        <div class="routingItemsSection">
+                            <div class="routingItems">
+                                <h4 class="routingItemsHeading">Routing Item Set</h4>
+
+                            </div>
+                        </div>
+                        <div class="noOfItemsSection">
+                            <div class="noOfItems">
+                                <label for="noitems">Number Of Items</label>
+                                <input type="number" name="noOfItems" id="noitems">
+                            </div>
+                        </div>
+                        <div class="interimThetaPart">
+                            <h4 class="interimTheta">Item selection after a rounting set (interim theta computation)
+                            </h4>
+                            <div class="interimThetaChoice">
+                                <div class="MLE">
+                                    <input type="radio" name="interimTheta" id="mlp">
+                                    <label for="mlp">MLE</label>
+                                </div>
+                                <div class="EAP">
+                                    <input type="radio" name="interimTheta" id="eap">
+                                    <label for="eap">EAP</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formPage2RightSide">
+                        <div class="rightSideContainer">
+                            <div class="selectDomain">
+                                <select name="domainOption" id="selectDomain">
+                                    <option value="">Select Domain Name</option>
+                                    <option value=".com">.com</option>
+                                    <option value="org:">org:</option>
+                                    <option value="gov:">gov:</option>
+                                    <option value="edu:">edu:</option>
+                                    <option value=".net:">.net:</option>
+                                    <option value="mil:">mil:</option>
+
+                                </select>
+                                <div class="three"></div>
+
+                            </div>
+                            <div class="literarySection">
+                                <div class="literary">
+                                    <label for="Literary">Literary</label>
+                                    <input type="number" name="Literary" id="Literary">
+                                </div>
+                            </div>
+                            <div class="sourceFileSection">
+                                <div class="sourceFile">
+                                    <label for="sourceFile">Source File</label>
+                                    <input type="number" name="sourceFile" id="sourceFile">
+                                </div>
+                            </div>
+                            <div class="passagesNoSection">
+                                <div class="passagesNo">
+                                    <label for="passagesNo">Number Of Passages </label>
+                                    <input type="number" name="passagesNo" id="passagesNo">
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Buttons">
+                    <button class="back" type="button" onclick="back()">back</button>
+                    <button class="next" type="button" onclick="next()">Next</button>
+                </div>
+
+            </div>
+        </div>
+       
+
+    </div>
+
+
+
+
+    </div>
+
+    <script>
+
+
+        let form1 = document.getElementsByClassName("formpage1")[0]
+        let form2 = document.getElementsByClassName("formpage2")[0]
+        let circle2 = document.querySelector(".section-1 .circle2")
+        let line = document.querySelector(".section-2 .line-1")
+        let circle1 = document.querySelector(".section-1 .circle1")
+
+
+        function next() {
+            form1.style.display = "none"
+            form2.style.display = "flex"
+            circle2.classList.add("active")
+            line.classList.add("active")
+            circle1.classList.remove("active")
+            circle1.classList.add("activated")
+            
+        }
+
+        function back() {
+            form1.style.display = "flex"
+            form2.style.display = "none"
+            circle2.classList.remove("active")
+            line.classList.remove("active")
+            circle1.classList.add("active")
+            circle1.classList.remove("activated")
+
+        }
+    </script>
+
+
+</body>
+
+</html>
